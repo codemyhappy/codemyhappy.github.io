@@ -1,0 +1,24 @@
+{
+  "name": "fresh-start-website",
+  "version": "1.0.0",
+  "description": "A completely restructured website with clean codebase",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server",
+    "start": "serve -s .",
+    "build": "echo 'Build step implemented in deployment'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "website",
+    "frontend",
+    "modern",
+    "clean-code"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "serve": "^14.2.0"
+  }
+}
