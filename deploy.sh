@@ -85,18 +85,14 @@ echo "1. 源码已提交到 $current_branch 分支"
 echo "2. 构建产物已提交到 gh-pages 分支"
 echo ""
 
+# proxy
+export https_proxy=http://127.0.0.1:7897 http_proxy=http://127.0.0.1:7897 all_proxy=socks5://127.0.0.1:7897
+
 # 检查远程仓库是否存在
-if git remote -v | grep -q "origin"; then
-    echo "检测到远程仓库，正在推送更改..."
-    echo "要推送源码更改，请运行: git push origin $current_branch"
-    echo "要推送部署，请运行: git push origin gh-pages"
-    echo ""
-    echo "或者，运行以下命令一次性推送所有更改："
-    echo "git push origin $current_branch && git push origin gh-pages"
-else
-    echo "警告：未检测到远程仓库。请先添加远程仓库地址："
-    echo "git remote add origin <your-repository-url>"
-    echo ""
-    echo "例如："
-    echo "git remote add origin https://github.com/username/repository-name.git"
-fi
+git push origin main && git push origin gh-pages
+
+echo "部署完成！"
+echo "访问地址： https://codemyhappy.github.io/"
+
+# 返回主分支
+git checkout main
