@@ -1,5 +1,5 @@
 node_modules/
-dist/
+# dist/
 build/
 .nyc_output
 coverage/
@@ -14,3 +14,4 @@ yarn-error.log*
 selenium-debug.log
 __pycache__/
 *.pyc
+docs/.vitepress/cache

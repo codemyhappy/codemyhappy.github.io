@@ -6,7 +6,7 @@
 
 - 个性化的设计
 - 响应式布局
-- 现代化技术栈 (Astro)
+- 现代化技术栈 (VitePress)
 - 易于维护和扩展
 
 ## 开始使用
@@ -25,7 +25,7 @@
    npm run dev
    ```
 
-3. 访问 http://localhost:4321 查看网站
+3. 访问 http://localhost:5173 查看网站
 
 ## 部署
 
@@ -33,7 +33,8 @@
 
 ## 文件结构
 
-- `src/pages/index.astro` - 主页文件 (Astro 组件)
+- `docs/index.md` - 主页文件 (VitePress)
+- `docs/.vitepress/config.js` - VitePress 配置文件
 - `package.json` - 项目依赖和脚本
 - `README.md` - 项目说明
 - `LICENSE` - 许可证信息

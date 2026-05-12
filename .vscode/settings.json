@@ -19,7 +19,6 @@
 
     // 控制markdown中粘贴图片的位置：`文章配图/同名文件夹/图片名称.后缀`
     "markdown.copyFiles.destination": {
-        // "**/*": "${documentDirName}/文章配图/${documentBaseName}/${fileName}"
-        "**/*": "${documentWorkspaceFolder}/public/blog-imgs/${documentBaseName}/${fileName}"
+        "**/*": "${documentDirName}/blog-imgs/${documentBaseName}/${fileName}"
     }
 }

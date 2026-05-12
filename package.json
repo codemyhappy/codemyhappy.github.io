@@ -1,27 +1,26 @@
 {
-  "name": "fresh-start-website",
+  "name": "codemyhappy-github-io-vitepress",
   "version": "1.0.0",
-  "description": "A completely restructured website with clean codebase",
+  "description": "CodeMyHappy personal homepage rebuilt with VitePress",
   "main": "index.html",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro preview",
-    "build": "astro build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "astro": "astro"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
   },
   "keywords": [
     "website",
     "frontend",
-    "modern",
-    "clean-code",
-    "astro",
-    "pnpm"
+    "blog",
+    "documentation",
+    "vitepress",
+    "personal-site"
   ],
-  "author": "Your Name",
+  "author": "CodeMyHappy",
   "license": "MIT",
   "devDependencies": {
-    "astro": "^2.0.0"
+    "vitepress": "^1.0.0",
+    "vue": "^3.4.0"
   },
   "packageManager": "pnpm@8.15.0"
 }
