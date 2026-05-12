@@ -14,4 +14,4 @@ yarn-error.log*
 selenium-debug.log
 __pycache__/
 *.pyc
-docs/.vitepress/cache
+src/.vitepress/cache/

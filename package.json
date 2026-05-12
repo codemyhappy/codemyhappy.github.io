@@ -4,9 +4,9 @@
   "description": "CodeMyHappy personal homepage rebuilt with VitePress",
   "main": "index.html",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "serve": "vitepress serve src"
   },
   "keywords": [
     "website",
