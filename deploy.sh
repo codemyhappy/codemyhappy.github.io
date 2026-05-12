@@ -5,7 +5,6 @@
 # 确保脚本在遇到错误时停止执行
 set -e
 
-pnpm install 
 pnpm build
 
 # 添加所有更改的文件
