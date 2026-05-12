@@ -1,12 +1,19 @@
 ---
-// 示例数据，可以根据需要修改
-const siteTitle = '全新开始的网站';
-const description = '欢迎来到重新构建的网站。这里将是一个全新的开始，没有历史提交记录，只有干净的代码结构。';
+// 个人主页信息
+const siteTitle = 'CodeMyHappy | 编程使我快乐';
+const description = '欢迎来到我的个人技术空间。我在这里分享编程经验、技术思考和项目实践。';
 const features = [
-  '现代响应式设计',
-  '优化的性能表现',
-  '清晰的代码结构',
-  '易于维护和扩展'
+  '全栈开发专家',
+  '热衷于新技术探索',
+  '开源项目贡献者',
+  '技术博客作者'
+];
+
+// 社交媒体链接
+const socialLinks = [
+  { name: 'GitHub', url: 'https://github.com/codemyhappy', icon: '🐱' },
+  { name: '小红书', url: 'https://www.xiaohongshu.com/user/profile/610e50bd00000000010088fd', icon: '📕' },
+  { name: '个人主页', url: 'https://codemyhappy.github.io/', icon: '🌐' }
 ];
 ---
 
@@ -15,7 +22,7 @@ const features = [
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{siteTitle} | 新项目</title>
+  <title>{siteTitle}</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -76,6 +83,28 @@ const features = [
       margin-right: 10px;
     }
 
+    .social-links {
+      margin: 30px 0;
+    }
+
+    .social-link {
+      display: inline-block;
+      margin: 0 15px;
+      padding: 12px 25px;
+      background: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: all 0.3s ease;
+      margin-top: 10px;
+    }
+
+    .social-link:hover {
+      background: #2980b9;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
     .btn {
       background: #3498db;
       color: white;
@@ -108,9 +137,18 @@ const features = [
       ))}
     </div>
     
-    <p>这个项目已经清除了不必要的文件，现在是一个干净的起点。您可以在此基础上构建新的功能。</p>
+    <div class="social-links">
+      <h3>关注我</h3>
+      {socialLinks.map(link => (
+        <a href={link.url} target="_blank" rel="noopener noreferrer" class="social-link">
+          {link.icon} {link.name}
+        </a>
+      ))}
+    </div>
     
-    <a href="#" class="btn">开始探索</a>
+    <p>我热爱编程和技术分享，致力于创造有价值的技术解决方案。在我的各个平台上，你可以找到关于前端、后端、DevOps等方面的高质量内容。</p>
+    
+    <a href="#contact" class="btn">联系我</a>
   </div>
 </body>
 </html>

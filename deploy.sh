@@ -91,8 +91,10 @@ export https_proxy=http://127.0.0.1:7897 http_proxy=http://127.0.0.1:7897 all_pr
 # 检查远程仓库是否存在
 git push origin main && git push origin gh-pages
 
-echo "部署完成！"
-echo "访问地址： https://codemyhappy.github.io/"
 
 # 返回主分支
 git checkout main
+
+
+echo "部署完成！"
+echo "访问地址： https://codemyhappy.github.io/"
