@@ -1,24 +1,160 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#05cece",
-        "activityBar.activeBackground": "#05cece",
-        "activityBar.activeBorder": "#05cece",
-        "activityBar.foreground": "#15202b",
-        "activityBar.inactiveForeground": "#15202b99",
-        "activityBarBadge.background": "#05cece",
-        "activityBarBadge.foreground": "#15202b",
-        "titleBar.activeBackground": "#05cece",
-        "titleBar.inactiveBackground": "#05cece",
-        "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveForeground": "#e7e7e799",
-        "statusBar.background": "#05cece",
-        "statusBarItem.hoverBackground": "#05cece",
-        "statusBar.foreground": "#e7e7e7"
-    },
-    "MarkdownPublisher.EnableChromePreview": false,
+  // 工作台颜色自定义 - 粉色主题配置
+  "workbench.colorCustomizations": {
+    // === 活动栏样式配置 ===
+    "activityBar.background": "#ff9abe",
+    "activityBar.activeBackground": "#ff7eb9",
+    "activityBar.activeBorder": "#ff7eb9",
+    "activityBar.foreground": "#2d0a16",
+    "activityBar.inactiveForeground": "#2d0a1699",
+    "activityBarBadge.background": "#ff69b4",
+    "activityBarBadge.foreground": "#ffffff",
 
-    // 控制markdown中粘贴图片的位置：`文章配图/同名文件夹/图片名称.后缀`
-    "markdown.copyFiles.destination": {
-        "**/*": "${documentDirName}/blog-imgs/${documentBaseName}/${fileName}"
-    }
+    // === 标题栏样式配置 ===
+    "titleBar.activeBackground": "#ff9abe",
+    "titleBar.inactiveBackground": "#ffb8d3",
+    "titleBar.activeForeground": "#2d0a16",
+    "titleBar.inactiveForeground": "#2d0a1699",
+
+    // === 状态栏样式配置 ===
+    "statusBar.background": "#ff7eb9",
+    "statusBarItem.hoverBackground": "#ff69b4",
+    "statusBar.foreground": "#ffffff",
+    "statusBarItem.remoteBackground": "#ff69b4",
+    "statusBarItem.remoteForeground": "#ffffff",
+
+    // === 侧边栏样式配置 ===
+    "sideBarTitle.foreground": "#2d0a16",
+    "sideBar.background": "#ffe0eb",
+    "sideBar.foreground": "#2d0a16",
+
+    // === 侧边栏选项卡样式配置 ===
+    "tab.activeBackground": "#ffccdd",
+    "tab.activeForeground": "#2d0a16",
+    "tab.inactiveBackground": "#ffc0cb",
+    "tab.inactiveForeground": "#5a1826",
+
+    // === 编辑器样式配置 ===
+    "editor.background": "#fff5f8",
+    "editor.foreground": "#2d0a16",
+    "editorLineNumber.foreground": "#ff99b8",
+    "editorLineNumber.activeForeground": "#ff69b4",
+    "editor.selectionBackground": "#ffb6c1",
+    "editor.selectionHighlightBackground": "#fbbdb3",
+    "editor.lineHighlightBackground": "#ffe0ed",
+    "editorBracketMatch.background": "#ff69b422",
+    "editorBracketMatch.border": "#ff69b4",
+
+    // === 边栏样式配置 ===
+    "editorGutter.background": "#ffe0ec",
+    
+    // === 滚动条样式配置 ===
+    "scrollbar.shadow": "#ffccdd",
+    "scrollbarSlider.background": "#ff9abe66",
+    "scrollbarSlider.hoverBackground": "#ff9abeaa",
+    "scrollbarSlider.activeBackground": "#ff9abeff",
+
+    // === 面包屑导航样式配置 ===
+    "breadcrumb.foreground": "#d42168",
+    "breadcrumb.focusForeground": "#ff0080",
+    "breadcrumb.activeSelectionForeground": "#ff69b4",
+
+    // === 终端样式配置（命令行面板）===
+    "terminal.background": "#fff5f8",
+    "terminal.foreground": "#2d0a16",
+    "terminal.selectionBackground": "#ffb6c1",
+    "terminalCursor.background": "#ff69b4",
+    "terminalCursor.foreground": "#ff69b4",
+    
+    // === 终端 ANSI 颜色配置 ===
+    "terminal.ansiBrightBlue": "#d46de4",
+    "terminal.ansiBlue": "#b44acd",
+    "terminal.ansiBrightMagenta": "#ff7eb9",
+    "terminal.ansiMagenta": "#ff69b4",
+    "terminal.ansiBrightRed": "#ff6b6b",
+    "terminal.ansiRed": "#ff5252",
+
+    // === Lists and Trees 样式配置（资源管理器）===
+    "list.activeSelectionForeground": "#2d0a16",
+    "list.activeSelectionBackground": "#ffccdd",
+    "list.inactiveSelectionBackground": "#ffc0cb",
+    "list.hoverBackground": "#ffd1e2",
+    "list.focusOutline": "#ff69b4",
+    "list.highlightForeground": "#d42168",
+    "tree.indentGuidesStroke": "#ff99b8",
+    "list.dropBackground": "#ffccdd",
+    "list.inactiveFocusBackground": "#ffe0ec",
+    "list.inactiveSelectionForeground": "#2d0a16",
+    "list.errorForeground": "#ff4444",
+    "list.warningForeground": "#ff9900",
+    
+    // === 搜索结果样式配置 ===
+    "editor.findMatchBackground": "#ffb6c1",
+    "editor.findMatchHighlightBackground": "#ff99b8aa",
+    
+    // === 通知面板样式配置 ===
+    "notificationCenterHeader.background": "#ffccdd",
+    "notificationsLink.fgColor": "#d42168",
+    
+    // === 下拉面板样式配置 ===
+    "dropdown.background": "#ffe0ec",
+    "dropdown.border": "#ff9abe",
+    "dropdown.foreground": "#2d0a16",
+    
+    // === 输入框样式配置 ===
+    "input.background": "#ffc0cb",
+    "input.border": "#ff9abe",
+    "input.foreground": "#2d0a16",
+    "input.placeholderForeground": "#d42168",
+    
+    // === 按钮样式配置 ===
+    "button.background": "#ff69b4",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#ff50a0",
+    
+    // === 编辑器标题栏配置（编辑区顶部操作栏）===
+    "editorGroupHeader.tabsBackground": "#ffe0ec",
+    "editorGroupHeader.noTabsBackground": "#ffe0ec",
+    
+    // === 编辑器组边框 ===
+    "editorGroup.border": "#ffccdd",
+    
+    // === 侧边栏面板配置（右侧侧边栏）===
+    "panel.background": "#ffe0ec",
+    "panel.border": "#ff9abe",
+    "panelTitle.activeForeground": "#d42168",
+    "panelTitle.inactiveForeground": "#ff69b4",
+    
+    // === 弹出提示样式配置 ===
+    "editorHoverWidget.background": "#ffe0ec",
+    "editorHoverWidget.border": "#ff9abe",
+    
+    // === 代码建议/补全弹窗配置 ===
+    "editorSuggestWidget.background": "#ffe0ec",
+    "editorSuggestWidget.border": "#ff9abe",
+    "editorSuggestWidget.selectedBackground": "#ffccdd",
+    
+    // === 警告错误提示配置 ===
+    "editorWarning.foreground": "#ff9900",
+    "editorError.foreground": "#ff4444",
+    "editorInfo.foreground": "#4da9ff",
+    
+    // === 代码括号突出显示配置 ===
+    "editorBracketHighlight.foreground1": "#ff69b4",
+    "editorBracketHighlight.foreground2": "#ff7eb9",
+    "editorBracketHighlight.foreground3": "#ff99d3",
+    
+    // === 修饰符颜色配置 ===
+    "diffEditor.insertedTextBackground": "#9ccc2c22",
+    "diffEditor.removedTextBackground": "#ff6b6b22"
+  },
+
+  // Markdown发布配置
+  "MarkdownPublisher.EnableChromePreview": false,
+
+  // Markdown复制图片配置
+  // 控制markdown中粘贴图片的位置：`文章配图/同名文件夹/图片名称.后缀`
+  "markdown.copyFiles.destination": {
+    "**/*": "${documentDirName}/blog-imgs/${documentBaseName}/${fileName}"
+  }
 }
