@@ -1,6 +1,13 @@
 {
   // 工作台颜色自定义 - 粉色主题配置
   "workbench.colorCustomizations": {
+
+    // 整体的前景色（文字颜色）
+    "foreground": "#2d0a16",
+
+    // 活动状态时用于窗口边框的颜色
+    "window.activeBorder": "#00ff00",
+
     // === 活动栏样式配置 ===
     "activityBar.background": "#ff9abe",
     "activityBar.activeBackground": "#ff7eb9",
@@ -27,6 +34,8 @@
     "sideBarTitle.foreground": "#2d0a16",
     "sideBar.background": "#ffe0eb",
     "sideBar.foreground": "#2d0a16",
+    "sideBarSectionHeader.background": "#ff69b4",
+    "sideBarSectionHeader.foreground": "#2d0a16",
 
     // === 侧边栏选项卡样式配置 ===
     "tab.activeBackground": "#ffccdd",
@@ -40,13 +49,16 @@
     "editorLineNumber.foreground": "#ff99b8",
     "editorLineNumber.activeForeground": "#ff69b4",
     "editor.selectionBackground": "#ffb6c1",
-    "editor.selectionHighlightBackground": "#fbbdb3",
+    "editor.selectionHighlightBackground": "#fbbdb310",
     "editor.lineHighlightBackground": "#ffe0ed",
     "editorBracketMatch.background": "#ff69b422",
     "editorBracketMatch.border": "#ff69b4",
 
     // === 边栏样式配置 ===
     "editorGutter.background": "#ffe0ec",
+
+    // === 命令面板 ===
+    "commandCenter.foreground":"#2d0a16",
     
     // === 滚动条样式配置 ===
     "scrollbar.shadow": "#ffccdd",
@@ -56,6 +68,7 @@
 
     // === 面包屑导航样式配置 ===
     "breadcrumb.foreground": "#d42168",
+    "breadcrumb.background": "#ff9abe66",
     "breadcrumb.focusForeground": "#ff0080",
     "breadcrumb.activeSelectionForeground": "#ff69b4",
 
