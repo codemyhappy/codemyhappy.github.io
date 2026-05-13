@@ -4,10 +4,10 @@
 
 ## 项目特点
 
-- 个性化的设计
-- 响应式布局
-- 现代化技术栈 (VitePress)
-- 易于维护和扩展
+- 基于 VitePress 构建的现代化文档网站
+- 响应式布局，支持多设备访问
+- 集成博客功能
+- 快速的构建和开发体验
 
 ## 开始使用
 
@@ -15,30 +15,59 @@
    ```
    pnpm install
    ```
-   或者
-   ```
-   npm install
-   ```
 
 2. 启动开发服务器：
    ```
-   npm run dev
+   pnpm dev
    ```
 
 3. 访问 http://localhost:5173 查看网站
 
-## 部署
+## 项目结构
 
-项目可以轻松部署到任何静态文件托管服务，如 GitHub Pages、Netlify 或 Vercel。
+```
+.
+├── src/                    # 源代码目录 (VitePress 源文件)
+│   ├── .vitepress/         # VitePress 配置目录
+│   │   ├── config.js       # VitePress 配置文件
+│   │   └── theme/          # 自定义主题
+│   ├── blog/               # 博客文章目录
+│   ├── index.md            # 主页文件
+│   └── public/             # 静态资源目录
+├── docs/                   # 构建输出目录 (GitHub Pages 部署目录)
+├── deploy.sh               # 自动化部署脚本
+├── package.json            # 项目配置和脚本
+└── README.md              # 项目说明
+```
 
-## 文件结构
+## 开发流程
 
-- `docs/index.md` - 主页文件 (VitePress)
-- `docs/.vitepress/config.js` - VitePress 配置文件
-- `package.json` - 项目依赖和脚本
-- `README.md` - 项目说明
-- `LICENSE` - 许可证信息
-- `.gitignore` - Git忽略规则
+1. **本地开发**：
+   - 修改 `src` 目录下的源文件
+   - 运行 `pnpm dev` 启动开发服务器
+   - 在浏览器中实时预览更改
+
+2. **添加博客文章**：
+   - 在 `src/blog` 目录下创建新的 Markdown 文件
+   - 确保文件头部包含适当的元数据
+
+3. **构建项目**：
+   - 运行 `pnpm build` 将源文件编译为静态网站
+   - 输出文件位于 `docs` 目录
+
+## 发版流程
+
+- 运行 `./deploy.sh` 执行自动化部署
+- 根据提示输入提交消息
+- 脚本会自动构建项目并将结果推送到 GitHub Pages
+
+
+## 脚本命令
+
+- `pnpm dev` - 启动开发服务器
+- `pnpm build` - 构建静态网站到 `docs` 目录
+- `pnpm serve` - 本地预览构建后的网站
+- `./deploy.sh` - 自动构建并部署到 GitHub Pages
 
 ## 许可证
 
