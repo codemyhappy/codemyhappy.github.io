@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  outDir: '../docs',
+  outDir: './docs',
+  srcDir: './wwwroot',
   title: "CodeMyHappy",
   description: "private site",
   themeConfig: {
