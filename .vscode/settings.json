@@ -1,4 +1,7 @@
 {
+  // 基础主题 
+  "workbench.colorTheme": "Light Modern",
+
   // 工作台颜色自定义 - 粉色主题配置
   "workbench.colorCustomizations": {
 
