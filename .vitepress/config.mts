@@ -9,8 +9,9 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Blogs', link: '/blog/' }
+      { text: '首页', link: '/' },
+      { text: 'Blogs', link: '/blog/' },
+      { text: '关于', link: '/about.html' }
     ],
 
     // sidebar: [
@@ -24,7 +25,7 @@ export default defineConfig({
     // ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/codemyhappy/codemyhappy.github.io' }
     ]
   }
 })
