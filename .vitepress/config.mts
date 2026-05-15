@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'Blogs', link: '/blog/' },
-      { text: '关于', link: '/about.html' }
+      { text: '关于', link: '/blog/关于我.html' }
     ],
 
     // sidebar: [
