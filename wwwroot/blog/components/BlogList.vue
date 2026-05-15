@@ -1,5 +1,5 @@
 <script setup>
-import { data } from './index.data.mjs'
+import { data } from './BlogList.data.mjs'
 const vm = data.filter(item => item.title !== 'index')
 console.log(data)
 </script>
