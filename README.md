@@ -2,6 +2,8 @@
 
 欢迎来到我的个人技术空间。我在这里分享编程经验、技术思考和项目实践。
 
+访问地址： [https://codemyhappy.github.io/](https://codemyhappy.github.io/)
+
 ## 项目特点
 
 - 基于 VitePress 构建的现代化个人主页
