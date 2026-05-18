@@ -60,12 +60,6 @@ markdown-publisher-for-all 是一个基于 VSCode 的博文发布客户端，能
 4. 插件会自动处理内容并发布到相应平台
 
 
-## 使用技巧
-
-- 在 Markdown 文件头部添加 Front Matter 来设置文章标题、标签和分类
-- 插件会自动处理本地图片路径，将其上传到平台图床
-- 支持预览模式，可在发布前检查格式
-
 ## 更新日志 (Changelog)
 
 ### V1.4.0 [Planning]
