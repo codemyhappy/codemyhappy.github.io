@@ -1,15 +1,18 @@
+
+
+
 我发现好多人不会安装软件-NodeJS.md
 # 我发现好多人不会安装软件-Node.JS
 
 最近发现好多新手朋友对如何安装 Node.js 感到困惑。其实安装 Node.js 并不复杂，这篇文章就教大家最简单的方法。
+
+![alt text](blog-imgs/我发现好多人不会安装软件-NodeJS/image-1.png)
 
 ## 什么是 Node.js？
 
 简单来说，Node.js 就是让你能在电脑上运行 JavaScript 的环境。无论你是想做前端开发，还是后端服务，或者是最近很火的AI工具，它都是必不可少的前置工具。
 
 ## 最简单的安装方法
-
-### 第一步：下载安装包
 
 访问 Node.js 官方下载页面：[https://nodejs.org/zh-cn/download](https://nodejs.org/zh-cn/download)
 
@@ -19,47 +22,37 @@
 
 上面的nvm、pnpm等内容，都是可选的，没必要装，徒增复杂度。
 
-### 第二步：运行安装程序
+## Windows 系统安装步骤
 
-#### Windows系统安装步骤：
+![alt text](blog-imgs/我发现好多人不会安装软件-NodeJS/image-9.png)
 
-1. 下载 `.msi` 文件（Windows Installer）
-2. 双击下载的安装包开始安装
-3. 一路点击 "Next" 或 "下一步"
-4. 在选择组件界面，保持默认选项（确保勾选 "Add to PATH"）
-5. 选择安装路径（建议使用默认路径）
-6. 继续点击 "Next" 直到安装完成
+![alt text](blog-imgs/我发现好多人不会安装软件-NodeJS/image-10.png)
 
-> 提示：此处需要添加Windows安装过程截图
+![alt text](blog-imgs/我发现好多人不会安装软件-NodeJS/image-8.png)
 
-#### Mac系统安装步骤：
+![alt text](blog-imgs/我发现好多人不会安装软件-NodeJS/image-7.png)
 
-1. 下载 `.pkg` 文件（Mac Installer）
-2. 双击下载的安装包开始安装
-3. 按照安装向导提示操作
-4. 可能需要输入管理员密码
-5. 完成安装后，Node.js 会自动添加到系统路径中
+![alt text](blog-imgs/我发现好多人不会安装软件-NodeJS/image-3.png)
 
-> 提示：此处需要添加Mac安装过程截图
+![alt text](blog-imgs/我发现好多人不会安装软件-NodeJS/image-6.png)
 
-### 第三步：验证安装
+![alt text](blog-imgs/我发现好多人不会安装软件-NodeJS/image-11.png)
 
-安装完成后，打开对应系统的命令行工具：
+![alt text](blog-imgs/我发现好多人不会安装软件-NodeJS/image-12.png)
 
-**Windows用户**：按 Win+R 输入 `cmd` 或搜索"命令提示符"
+![alt text](blog-imgs/我发现好多人不会安装软件-NodeJS/image-13.png)
 
-**Mac用户**：打开"终端"应用（Terminal）
 
-输入以下命令检查是否安装成功：
+## Mac 系统安装步骤
 
-```bash
-node --version
-npm --version
-```
+![alt text](blog-imgs/我发现好多人不会安装软件-NodeJS/image-2.png)
 
-如果看到版本号输出，恭喜你！Node.js 已经成功安装了。
+![alt text](blog-imgs/我发现好多人不会安装软件-NodeJS/image-4.png)
 
-> 提示：此处需要添加命令行验证截图
+![alt text](blog-imgs/我发现好多人不会安装软件-NodeJS/image-5.png)
+
+macOS的安装非常简单，一直按提示操作，安装完成后，在终端输入 node -v 命令，如果显示版本号，则安装成功。
+
 
 ## 常见问题
 
