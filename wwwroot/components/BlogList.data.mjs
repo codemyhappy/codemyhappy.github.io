@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 
 export default {
-  watch: ['../*.md'],
+  watch: ['../blog/*.md'],
   load(watchedFiles) {
     // watchFiles 是一个所匹配文件的绝对路径的数组。
     // 生成一个博客文章元数据数组
