@@ -32,14 +32,15 @@
 ├── .vitepress/             # VitePress 配置目录
 ├── wwwroot/                # 源代码目录 (VitePress 源文件)
 │   ├── blog/               # 博客文章目录
-│   │   ├── components/     # 博客组件目录
 │   │   ├── index.md        # 博客首页
 │   │   └── 文章文件...
 │   ├── index.md            # 主页文件
 │   └── public/             # 静态资源目录
 ├── docs/                   # 构建输出目录 (GitHub Pages 部署目录)
 ├── todo-drafts/            # 待发布文章草稿
+├── components/             # 博客组件目录
 ├── deploy.sh               # 自动化部署脚本
+├── push-to-remote.sh       # 仅推送到远程仓库，不发版
 ├── package.json            # 项目配置和脚本
 └── README.md              # 项目说明
 ```

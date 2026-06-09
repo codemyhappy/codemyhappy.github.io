@@ -1,7 +1,7 @@
 <script setup>
 import { data } from './BlogList.data.mjs'
 const vm = data.filter(item => item.title !== 'index')
-console.log(data)
+console.log('\r\n所有博文列表：',data.map(item=> item.title))
 </script>
 
 <template>
