@@ -11,19 +11,41 @@
 - 响应式布局，支持多设备访问
 - 快速的构建和开发体验
 
-## 开始使用
+## 快速开始
 
-1. 安装依赖：
+### 使用 Git 命令克隆并推送至你的仓库
+
+1. **克隆本仓库**
+   ```bash
+   git clone https://github.com/codemyhappy/codemyhappy.github.io.git
+   cd codemyhappy.github.io
+   ```
+
+2. **更换远程仓库地址**
+   ```bash
+   # 删除原始的远程仓库地址
+   git remote remove origin
+   
+   # 添加你自己的仓库地址 (将 {your_username} 替换为你的 GitHub 用户名)
+   git remote add origin https://github.com/{your_username}/{your_username}.github.io.git
+   ```
+
+3. **推送代码到你的仓库**
+   ```bash
+   # 推送 main 分支
+   git push -u origin main
+   ```
+
+推送后，github会自动构建并部署到 GitHub Pages。
+
+点击就可以访问了。
+
+4. **本地启动并发版**：
    ```
    pnpm install
-   ```
-
-2. 启动开发服务器：
-   ```
    pnpm dev
    ```
-
-3. 访问 http://localhost:9002 查看网站
+   访问 http://localhost:9002 查看网站
 
 ## 项目结构
 
