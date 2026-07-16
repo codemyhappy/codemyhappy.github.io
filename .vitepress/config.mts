@@ -4,6 +4,7 @@ import { RssPlugin, RSSOptions } from 'vitepress-plugin-rss'
 const RSS: RSSOptions = {
   title: 'CodeMyHappy',
   baseUrl: 'https://codemyhappy.github.io',
+  description:'当过小兵，做过管理；敲过代码，写过文档；进过大厂，蹲过作坊。身经百战，一切都是沉淀，关注我，希望我的分享对你有所帮助！',
   'language': 'zh-cn',
   'author': {
     name: 'CodeMyHappy',
