@@ -4,6 +4,13 @@ import { RssPlugin, RSSOptions } from 'vitepress-plugin-rss'
 const RSS: RSSOptions = {
   title: 'CodeMyHappy',
   baseUrl: 'https://codemyhappy.github.io/',
+  'language': 'zh-cn',
+  'author': {
+    name: 'CodeMyHappy',
+  },
+  'filename': 'rss.xml',
+  'ignoreHome': true
+
 }
 
 // https://vitepress.dev/reference/site-config
