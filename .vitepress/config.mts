@@ -10,11 +10,11 @@ const RSS: RSSOptions = {
   'author': {
     name: 'CodeMyHappy',
   },
-  'filename': 'rss.xml',
+  'filename': 'feed.rss',
   'ignoreHome': true,
-  renderHTML(filecontent, config, options) {
-    return ''
-  },
+  // renderHTML(filecontent, config, options) {
+  //   return ''
+  // },
 
 }
 
