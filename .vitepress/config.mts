@@ -3,7 +3,7 @@ import { RssPlugin, RSSOptions } from 'vitepress-plugin-rss'
 
 const RSS: RSSOptions = {
   title: 'CodeMyHappy',
-  baseUrl: 'https://codemyhappy.github.io/',
+  baseUrl: 'https://codemyhappy.github.io',
   'language': 'zh-cn',
   'author': {
     name: 'CodeMyHappy',
