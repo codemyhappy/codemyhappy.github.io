@@ -1,4 +1,10 @@
 import { defineConfig } from 'vitepress'
+import { RssPlugin, RSSOptions } from 'vitepress-plugin-rss'
+
+const RSS: RSSOptions = {
+  title: 'CodeMyHappy',
+  baseUrl: 'https://codemyhappy.github.io/',
+}
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -55,5 +61,12 @@ export default defineConfig({
         timeStyle: 'medium'
       }
     },
-  }
+  },
+  
+  // 插件配置
+  vite:{
+    plugins: [
+      RssPlugin(RSS)
+    ]
+  },
 })

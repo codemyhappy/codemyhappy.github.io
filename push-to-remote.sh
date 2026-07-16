@@ -22,7 +22,7 @@ git commit -m "$source_commit_message"
 echo "源码提交完成！"
 
 # proxy
-export https_proxy=http://127.0.0.1:7897 http_proxy=http://127.0.0.1:7897 all_proxy=socks5://127.0.0.1:7897
+# export https_proxy=http://127.0.0.1:7897 http_proxy=http://127.0.0.1:7897 all_proxy=socks5://127.0.0.1:7897
 
 # 检查远程仓库是否存在
 git push origin main
