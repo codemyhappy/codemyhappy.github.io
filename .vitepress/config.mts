@@ -11,7 +11,10 @@ const RSS: RSSOptions = {
     name: 'CodeMyHappy',
   },
   'filename': 'rss.xml',
-  'ignoreHome': true
+  'ignoreHome': true,
+  renderHTML(filecontent, config, options) {
+    return ''
+  },
 
 }
 
