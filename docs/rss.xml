@@ -4,10 +4,11 @@
         <title>CodeMyHappy</title>
         <link>https://codemyhappy.github.io/</link>
         <description>当过小兵，做过管理；敲过代码，写过文档；进过大厂，蹲过作坊。身经百战，一切都是沉淀，关注我，希望我的分享对你有所帮助！</description>
-        <lastBuildDate>Thu, 16 Jul 2026 08:09:13 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jul 2026 08:12:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-cn</language>
+        <copyright>CodeMyHappy</copyright>
         <item>
             <title><![CDATA[好多网站里面都有一个叫订阅的东西，RSS它到底是什么？]]></title>
             <link>https://codemyhappy.github.io/blog/好多网站里面都有一个叫订阅的东西，RSS它到底是什么.html</link>
